@@ -1,0 +1,41 @@
+.nav {
+    position: absolute;
+    top: 60px; /* abaixo do header */
+    left: 0;
+    right: 0;
+    background-color: #000;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    z-index: 999;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .cabeçalho {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 28px;
+    margin-left: 10px;
+  }
+
+  .botao-contato {
+    justify-content: flex-end;
+  }
+
+  .botao-branco {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .video iframe {
+    width: 60%;
+    height: 60%;
+  }
